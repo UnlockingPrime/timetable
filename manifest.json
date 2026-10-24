@@ -1,0 +1,23 @@
+{
+  "id": "./",
+  "name": "Semester",
+  "short_name": "Semester",
+  "description": "Daily lectures, the weekly timetable and end-semester exam countdowns.",
+  "start_url": "./#today",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EEF3FA",
+  "theme_color": "#EEF3FA",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Today's lectures", "short_name": "Today", "url": "./#today", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Week timetable", "short_name": "Week", "url": "./#week", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Exam countdowns", "short_name": "Exams", "url": "./#exams", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
