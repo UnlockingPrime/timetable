@@ -2,7 +2,7 @@
  * Service worker: makes Semester load instantly and work offline.
  * Bump VERSION whenever you change any file, so phones pick up the new build.
  */
-const VERSION = "semester-app-v1";
+const VERSION = "semester-app-v2";
 const FONTS = "semester-fonts";
 const CORE = [
   "./",
